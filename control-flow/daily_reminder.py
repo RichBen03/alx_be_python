@@ -5,16 +5,16 @@ time_bound = input("Is the task time bound? (yes/no)")
 match priorty:
     case "high":
         if time_bound== "yes":
-                print(f"{task} is a high priority task that requires immediate attention today!")
+                print(f"{task} is a high priorty task that requires immediate attention today!")
         else:
-             print(f"{task} is a high priority task find time and do it!")
+             print(f"{task} is a high priorty task find time and do it!")
     case "medium":
           if time_bound == "yes":
                print(f"{task} is a medium priorty task but is time-bound please find time and complete it")
           else:
-               print(f"{task} is a medium priority task, find time to do it ")
+               print(f"{task} is a medium priorty task, find time to do it ")
     case "low":
           if time_bound == "yes":
-               print(f"{task} is of low priority but kindly remember to do it on time, avoid procastination")
+               print(f"{task} is of low priorty but kindly remember to do it on time, avoid procastination")
           else:
-               print(f"{task} is a low priority task. Consider completing it when you have free time. ")
+               print(f"{task} is a low priorty task. Consider completing it when you have free time. ")
