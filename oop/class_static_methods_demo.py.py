@@ -6,11 +6,11 @@ class Calculator:
 
     @staticmethod
     def add(a, b):
-        """Static method to return the sum of two numbers."""
+        # Static method: does not use self or cls
         return a + b
 
     @classmethod
     def multiply(cls, a, b):
-        """Class method to return the product and print the calculation type."""
+        # Class method: accesses class attribute
         print(f"Calculation type: {cls.calculation_type}")
         return a * b
